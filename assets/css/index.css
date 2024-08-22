@@ -1,3 +1,7 @@
+body{
+    background-color: #ECEBF7 !important;
+    margin:0;
+}
 .work-sans-navbar {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
@@ -13,14 +17,23 @@
 .navbar-nav{
     gap: 20px;
 }
-
 .presentacion{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    padding-top: 5vh;
 }
+
+.profile-container img{
+    object-fit: contain;
+    border-radius: 100%;
+    width: 15vw;
+    height: auto;
+    border: gray solid 5px;
+}
+
 .presentacion h5{
     width: 35vw;
     text-align: center;
@@ -32,6 +45,9 @@
     align-items: center !important;
     gap: 20px;
 }
+.disponible h6{
+    margin-bottom: 0;
+}
 .estado{
     padding: 5px 15px 5px 15px;
     border-radius: 20px;
@@ -42,6 +58,15 @@
     font-size: 0.8rem;
 }
 main{
-    padding-right: 15vw !important;
-    padding-left: 15vw !important;
+    padding-right: 20vw !important;
+    padding-left: 20vw !important;
+    margin: 0;
+}
+
+#cv-link{
+    text-decoration: none;
+}
+
+.btn-contacto{
+    border-radius: 20px !important;
 }
