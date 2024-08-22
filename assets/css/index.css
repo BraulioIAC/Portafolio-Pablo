@@ -1,0 +1,47 @@
+.work-sans-navbar {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.9rem;
+  }
+
+#navbarNavAltMarkup{
+    width: 100%;
+    justify-content: center;
+}
+.navbar-nav{
+    gap: 20px;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.presentacion h5{
+    width: 35vw;
+    text-align: center;
+}
+.disponible{
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 20px;
+}
+.estado{
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    border: #1b9304 solid 2px;
+    background-color: #ceebc8;
+    color: #1b9304;
+    font-weight:500;
+    font-size: 0.8rem;
+}
+main{
+    padding-right: 15vw !important;
+    padding-left: 15vw !important;
+}
