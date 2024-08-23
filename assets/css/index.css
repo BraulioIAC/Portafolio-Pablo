@@ -2,6 +2,10 @@ body{
     background-color: #ECEBF7 !important;
     margin:0;
 }
+*{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
 .work-sans-navbar {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
@@ -58,6 +62,7 @@ body{
     font-size: 0.8rem;
 }
 main{
+    padding-top: 7vh !important;
     padding-right: 20vw !important;
     padding-left: 20vw !important;
     margin: 0;
