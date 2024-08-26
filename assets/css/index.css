@@ -1,11 +1,11 @@
 body{
-    background-color: #ECEBF7 !important;
+    /* background-color: #ECEBF7 !important; */
+    background-color: #d4d3dd !important;
     margin:0;
-}
-*{
-    font-family: "Jost", sans-serif;
+    font-family: "Jost", sans-serif  !important;
     font-optical-sizing: auto;
 }
+
 .work-sans-navbar {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
@@ -61,12 +61,6 @@ body{
     font-weight:500;
     font-size: 0.8rem;
 }
-main{
-    padding-top: 7vh !important;
-    padding-right: 20vw !important;
-    padding-left: 20vw !important;
-    margin: 0;
-}
 
 #cv-link{
     text-decoration: none;
@@ -75,3 +69,71 @@ main{
 .btn-contacto{
     border-radius: 20px !important;
 }
+
+main{
+    padding-top: 7vh !important;
+    padding-right: 20vw !important;
+    padding-left: 20vw !important;
+    margin: 0;
+}
+main h3, .card h5{
+    font-weight: 650;
+    font-family: "Work Sans", sans-serif;
+}
+
+.card{
+    background-color: #d4d3dd !important;
+    border: none !important;
+}
+
+
+
+.skills-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.skills-img img{
+    width: auto;
+    height: 12vh;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto !important;
+    gap: 15px;
+}
+
+#about-me{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* 12 columnas en total */
+    grid-template-rows: auto auto; /* Filas automáticas en altura */
+    gap: 20px; /* Espaciado entre los elementos */
+    margin: 0;
+}
+
+#titulo-about {
+    grid-column: 1 / -1; /* El título ocupa todo el ancho de la grid */
+    text-align: center; /* Centrar el título */
+  }
+  
+  .about-1 {
+    grid-column: span 7; /* Ocupa 7 de las 12 columnas */
+  }
+  
+  .about-2 {
+    grid-column: span 5; /* Ocupa las 5 columnas restantes */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-2 img{
+    width: auto;
+    height: 45vh;
+    object-fit: contain;
+  }
