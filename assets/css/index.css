@@ -134,6 +134,7 @@ main h3, .card h5{
   }
   .about-2 img{
     width: auto;
-    height: 45vh;
+    height: 40vh;
     object-fit: contain;
+    border-radius: 20px;
   }
