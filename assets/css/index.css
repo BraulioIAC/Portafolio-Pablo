@@ -1,3 +1,7 @@
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
 body{
     /* background-color: #ECEBF7 !important; */
     background-color: #d4d3dd !important;
@@ -74,6 +78,7 @@ main{
     padding-top: 7vh !important;
     padding-right: 20vw !important;
     padding-left: 20vw !important;
+    padding-bottom: 7vh;
     margin: 0;
 }
 main h3, .card h5{
@@ -133,8 +138,13 @@ main h3, .card h5{
     align-items: center;
   }
   .about-2 img{
-    width: auto;
-    height: 40vh;
+    width: 20vw;
+    height: auto;
     object-fit: contain;
-    border-radius: 20px;
+    border-radius: 5px;
+  }
+
+  /* Colocar width del 100% a los divs de los inputs */
+  .input{
+    width: 100%;
   }
